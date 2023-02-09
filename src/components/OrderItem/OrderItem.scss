@@ -1,0 +1,25 @@
+.order-item {
+  display: flex;
+  margin-bottom: 30px;
+
+  &__cover {
+    width: 200px;
+    margin-right: 30px;
+  }
+
+  &__title {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  &__price {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: auto;
+  }
+
+  &__delete {
+    margin-left: 5px;
+    cursor: pointer;
+  }
+}

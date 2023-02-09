@@ -1,0 +1,53 @@
+.app {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.home {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.game {
+
+  &__title {
+    margin-bottom: 20px;
+  }
+
+  &__cont {
+    display: flex;
+  }
+
+  &__left {
+    width: 70%;
+  }
+
+  &__right {
+    width: 30%;
+  }
+
+  &__cover {
+    margin-bottom: 10px;
+  }
+
+  &__descr {
+    margin-bottom: 15px;
+  }
+
+  &__popular {
+    margin-bottom: 10px;
+  }
+
+  &__buy {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 55px;
+
+    position: relative;
+  }
+}
+
+.secondary-text {
+  color: rgb(80, 82, 84);
+}

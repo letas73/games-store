@@ -1,0 +1,21 @@
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+
+  &__wrapper {
+    display: flex;
+  }
+
+  &__logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  &__cart {
+
+  }
+}
